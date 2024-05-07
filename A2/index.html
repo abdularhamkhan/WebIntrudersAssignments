@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
+
 <body>
-    
+
+    <header style="background-color: aqua;">
+        <h1>My Portfolio</h1>
+        <h2>Abdul Arham Khan : The Best Web Developer</h2>
+    </header>
+    <main>
+        <h3>My Projects</h3>
+        <!-- made the div because anchor tag is inline and the img was getting next to it -->
+        <div>
+            <a href="movie.html" target="_blank">Movie Ranking Project</a>
+        </div>
+        <div>
+            <img src="movie.png" alt="screenshot of movie ranking project" width="200" style="margin-top: 20px;">
+            <!-- had to give margin from top to make it exactly like design sample -->
+        </div>
+        <div>
+            <a href="birthday.html" target="_blank">Birthday Invite Projects</a>
+        </div>
+        <div>
+            <img src="birthdayinvite.png" alt="screenshot of birthday invite project" width="200"
+                style="margin-top: 20px;">
+        </div>
+        <hr>
+        <h3><span style="background-color: tomato;">To hire me fill form</span></h3>
+        <form action="submit.php">
+            <label for="username">Username:</label>
+            <input type="text" id="username" maxlength="8" required> <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" maxlength="8" required> <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required> <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" required><br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob"><br>
+            <label for="gender" name="question" required>Gender:</label><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name=“question”><br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name=“question”>
+            
+
+        </form>
+    </main>
+    <footer></footer>
+
 </body>
+
 </html>

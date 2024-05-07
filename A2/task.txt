@@ -1,0 +1,9 @@
+You will upload 8 files 
+1.index.html(containing main code)
+2.birthday.html (containing birthday project code)
+3.movie.html(containing movie project code)
+4.contact.html(containing contact page code)
+5.cake pic that you used in birthday project 
+6.logo that you used in tittle 
+7.screenshot of project birthday output that you added to index.html
+8.screenshot of project movie ranking output that you added to index.html
