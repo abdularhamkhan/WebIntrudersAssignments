@@ -1,0 +1,120 @@
+* {
+    color:#8B0000;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.container {
+    background: url(bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo,.pages{
+    margin: 10px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.pages ul {
+    display: flex;
+    list-style: none;
+}
+
+.pages a {
+    margin: 8px;
+    padding: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    list-style: none;
+    /* transition: all 5ms ease-in; */
+}
+
+.pages a:hover {
+    border-bottom: 4px solid #8B0000;
+    cursor: pointer;
+    color: white;
+
+}
+
+
+@keyframes comefromleftside {
+    from{
+        transform: translate(-300px,150px);
+    }
+    to{transform: translateX(0,0);}
+}
+
+.main {
+    padding: 4px;
+    transform: translateY(50%);
+    text-align: center;
+    animation:  comefromleftside 1s ease-in;
+}
+
+.main p:hover{
+    font-weight: bolder;
+}
+
+.main h1:hover{
+    border-bottom: 4px solid #8B0000;
+    display: inline;
+}
+
+.main p{
+   margin-top: 12px;
+}
+
+.main h3{
+    margin-top: 16px;
+    border-radius: 25px;
+    border: 4px solid #8B0000;
+    background-color: white;
+    display: inline-block;
+    padding: 4px 8px;
+ }
+ 
+ .main h3:hover{
+    cursor: pointer;
+    border-color: white;
+    background-color: #8B0000;
+   color: white;
+ }
+ 
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.buttons a {
+    margin: 20px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #8B0000;
+    color: white;
+    /* border: 2px solid #8B0000; */
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.buttons a:hover {
+    color: #8B0000;
+    background-color: white;
+    cursor: pointer;
+
+}
+
